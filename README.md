@@ -12,16 +12,16 @@ On the backend, a Java Servlet runs the submitted ID through the Luhn Algorithm 
     <td><b>2. ID Input Form</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/welcome.png" width="350" alt="Welcome Screen"></td>
-    <td><img src="screenshots/form.png" width="350" alt="Form Screen"></td>
+    <td><img src="Screenshots/welcome.png" width="350" alt="Welcome Screen"></td>
+    <td><img src="Screenshots/form.png" width="350" alt="Form Screen"></td>
   </tr>
   <tr>
     <td><b>3. Validation Success</b></td>
     <td><b>4. Error Page</b></td>
   </tr>
   <tr>
-    <td><img src="screenshots/success.png" width="350" alt="Success Screen"></td>
-    <td><img src="screenshots/error.png" width="350" alt="Error Screen"></td>
+    <td><img src="Screenshots/success.png" width="350" alt="Success Screen"></td>
+    <td><img src="Screenshots/error.png" width="350" alt="Error Screen"></td>
   </tr>
 </table>
 
