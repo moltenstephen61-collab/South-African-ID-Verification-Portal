@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Verification Portal</title>
+    <style>
+        /* CSS Color Variables using standard color names */
+        :root {
+            --title-color: navy;           /* Deep Blue for the Header Text */
+            --button-bg: blue;            /* Standard Blue for the Button */
+            --button-hover: darkblue;      /* Darker Blue when hovering */
+            --icon-color: green;          /* Standard Green for the Icon path */
+            --icon-bg: lightgray;         /* Light background circle for the icon */
+            --body-bg: ghostwhite;        /* Soft off-white for the page background */
+            --card-bg: white;             /* White background for the main card */
+            --text-main: black;
+            --text-muted: dimgray;
+            --radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: var(--body-bg);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Portal Container Card */
+        .portal-card {
+            background-color: var(--card-bg);
+            padding: 40px 32px;
+            border-radius: var(--radius);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            max-width: 440px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid lightgray;
+        }
+
+        /* Icon Wrapper Circle */
+        .icon-container {
+            width: 68px;
+            height: 68px;
+            background-color: var(--icon-bg);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+
+        .icon-container svg {
+            width: 34px;
+            height: 34px;
+            color: var(--icon-color);
+        }
+
+        /* Typography */
+        h1 {
+            color: var(--title-color);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 32px;
+        }
+
+        /* Modern Button Styling */
+        .btn-action {
+            display: inline-block;
+            width: 100%;
+            background-color: var(--button-bg);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 14px 24px;
+            border-radius: 8px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn-action:hover {
+            background-color: var(--button-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn-action:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <main class="portal-card">
+        <!-- SVG Shield Verification Icon -->
+        <div class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+        </div>
+
+        <h1>Welcome Portal</h1>
+        <p>Access the secure validation interface to verify, track, and cross-reference identification credentials.</p>
+        
+        <!-- Action Button -->
+        <a href="add_id.html" class="btn-action">Verify ID Record</a>
+    </main>
+
+</body>
+</html>
