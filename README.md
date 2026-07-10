@@ -4,6 +4,27 @@ This is a straightforward Java web application I built to validate 13-digit Sout
 
 On the backend, a Java Servlet runs the submitted ID through the Luhn Algorithm (Modulus 10) to make sure it's structurally authentic. If the ID passes the check, the app breaks down the string to extract and display the user's Date of Birth, Gender, and Citizenship status (Citizen vs. Permanent Resident). If the ID is fake or mistyped, it routes the user to a clean error page instead.
 
+### Screenshots
+
+<table>
+  <tr>
+    <td><b>1. Welcome Portal</b></td>
+    <td><b>2. ID Input Form</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/welcome.png" width="350" alt="Welcome Screen"></td>
+    <td><img src="screenshots/form.png" width="350" alt="Form Screen"></td>
+  </tr>
+  <tr>
+    <td><b>3. Validation Success</b></td>
+    <td><b>4. Error Page</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/success.png" width="350" alt="Success Screen"></td>
+    <td><img src="screenshots/error.png" width="350" alt="Error Screen"></td>
+  </tr>
+</table>
+
 ### Tech Used
 * Java Servlets & JSP
 * HTML5 & Vanilla CSS
